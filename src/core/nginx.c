@@ -296,7 +296,7 @@ main(int argc, char *const *argv)
      * ngx_slab_sizes_init() requires ngx_pagesize set in ngx_os_init()
      */
 
-    // slab 初始化
+    // slab 初始化，slab内存分配机制
     ngx_slab_sizes_init();
 
     // nginx 平滑升级时所用，也就是升级 nginx 可执行二进制文件版本
